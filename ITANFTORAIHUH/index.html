@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Is this Image an NFT or AI Generated HUH?</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/e8093f308b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-center">
+        <h1 class="title">Is this Image an NFT or AI Generated HUH???</h1>
+        <p>
+          Is this image made by a person (using NFTs sourced from Opensea and
+          Superrare) or is it AI generated (using MidJourney)?
+        </p>
+        <p id="type">type</p>
+        <h2 class="text-center timer">
+          <i class="fa-solid fa-hourglass"></i> Time
+        </h2>
+      </div>
+    </nav>
+
+    <main>
+      <img src="" id="img" />
+      <div class="contents" id="content"></div>
+      <div class="container">
+        <button class="btn btn-nft" id="btnnft">
+          <i class="fa-solid fa-palette"></i> NFT
+        </button>
+        <button class="btn btn-ai" id="btnai">
+          <i class="fa-solid fa-robot"> </i> AI Art
+        </button>
+      </div>
+    </main>
+    <!-- modal -->
+    <div class="modal-overlay">
+      <div class="modal-container">
+        <h3>AHAHAHA</h3>
+        <p id="modaltext">
+          You failed on your first try! Embarrassing! Hold this L
+        </p>
+        <!-- <button class="close-btn"><i class="fas fa-times"></i></button> -->
+        <button class="restart" onClick="window.location.reload();">
+          Restart
+        </button>
+      </div>
+    </div>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
